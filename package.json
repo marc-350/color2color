@@ -2,7 +2,7 @@
   "name": "colorcolor",
   "version": "3.0.1",
   "description": "colorcolor converts Hex/HexA/RGB/RGBA/HSL/HSLA/HSV/HSB/HWB color strings to Hex/HexA/RGB/RGBA/HSL/HSLA/HSV/HSB/HWB color strings.",
-  "main": "./dist/colorcolor.cjs",
+  "main": "./dist/colorcolor.js",
   "types": "./dist/colorcolor.d.ts",
   "scripts": {
     "build": "npm run clean && npm run rollup && copyfiles -f ./dist/src/colorcolor.d.ts ./dist && copyfiles -f ./dist/src/colors.d.ts ./dist && rimraf ./dist/src",
